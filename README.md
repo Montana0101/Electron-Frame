@@ -1,4 +1,6 @@
 Parcel + React + Electron + Node
 
-个人练手项目
+Created by Montana ! 
+
+Blog : montanas.cc:8080
 
