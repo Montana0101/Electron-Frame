@@ -1,0 +1,31 @@
+{
+  "name": "electron-video",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "parcel index.html -p 7777",
+    "devv": "electron .",
+    "dev": "concurrently  \" electron .\" \" npm run start \"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Montana0101/Electron-Video.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Montana0101/Electron-Video/issues"
+  },
+  "homepage": "https://github.com/Montana0101/Electron-Video#readme",
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "cross-env": "^7.0.2",
+    "electron": "^9.0.3",
+    "nodemon": "^2.0.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "wait-on": "^5.0.1"
+  }
+}
